@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes de estilização</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="sticky-top text-bg-dark p-2 text-center rounded shadow-lg">
+            Classes de Estilização</h1>
+        <hr>
+        
+        <h2>Conteúdo (Content)</h2>
+
+        <h3>Tipografia</h3>
+
+        <h4 class="display-6">Exemplo de classe display</h4>
+
+        <p>Parágrafo comum</p>
+        <p class="lead">Parágrafo de destaque</p>
+        <p>Parágrafo comum</p>
+
+        <hr>
+
+        <h3>Imagens</h3>
+
+        <img class="img-fluid" src="imagens/foto1.jpg" alt="">
+
+        <img class="w-50 img-thumbnail" src="imagens/foto0.jpg" alt="">
+
+        <hr>
+
+        <h3>Tabelas</h3>
+
+        <table class="table table-striped table-hover border-dark table-sm">
+            <caption class="caption-top">Exemplo</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Cliente</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>1</td>
+                    <td>Geddy Lee</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Alex Lifeson</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Neil Peart</td>
+                    <td>Belo Horizonte</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>John Rutsey</td>
+                    <td>Manaus</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <h2>Auxiliares (Helpers) e Utilitárias (Utilities)</h2>
+        
+        <h3>Cores de primeiro e segundo plano</h3>
+        
+        <p class="text-bg-primary">Lorem ipsum dolor sit amet.</p>
+        <p class="text-bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="text-bg-warning">Lorem, ipsum dolor.</p>
+
+        <div class="alert alert-info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <p class="mb-0">Lorem <span class="text-bg-danger">ipsum</span> dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <hr>
+
+        <h3>Stretched link</h3>
+        <div class="card w-50">
+            <img src="imagens/foto0.jpg" alt="">
+            <div class="card-body">
+                <h3 class="card-title">Título do card</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, est.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                <a href="" class="stretched-link btn btn-primary">Link para algum lugar</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>Plano de Fundo</h3>
+        <p class="bg-info">Lorem, ipsum dolor.</p>
+        <p class="bg-info-subtle">Lorem ipsum dolor sit amet.</p>
+        <p class="bg-info bg-gradient p-4">Lorem ipsum dolor sit.</p>
+        <p class="bg-info bg-gradient p-4 bg-opacity-50">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+        <hr>
+
+        <h3>Bordas</h3>
+        <div class="bg-light p-4 border border-primary border-5 rounded rounded-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nostrum quasi, cupiditate officia nemo quam aut, nihil unde laudantium, quod quas voluptatum cumque explicabo amet voluptas. Odit sunt magnam dolores?
+        </div>
+
+        <hr>
+
+        <h3>Cores</h3>
+        <p class="text-success">Lorem ipsum dolor sit amet.</p>
+        <p class="text-primary-emphasis">Lorem ipsum dolor sit amet.</p>
+        <p class="text-danger">Lorem ipsum dolor sit amet.</p>
+        <div class="bg-danger-subtle">
+            <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, dolor a tempore facilis veritatis nisi animi consectetur minima culpa eaque repellat. Veritatis neque quisquam doloremque, animi placeat aliquam repudiandae quaerat!</p>
+        </div>
+
+        <hr>
+
+        <h3>Flex</h3>
+        
+        <div class="bg-warning p-3 d-flex justify-content-evenly">
+            <div class="text-bg-primary">bloco 1</div>
+            <div class="text-bg-success">bloco 2</div>
+            <div class="text-bg-danger">bloco 3</div>
+        </div>
+
+        <hr>
+
+        <h3>Sombras</h3>
+
+        <div class="shadow-lg p-2">
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+        </div>
+
+        <hr>
+
+        <h3>Dimensionamento</h3>
+        <p class="w-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, doloribus nesciunt sequi quidem perferendis quibusdam fugiat in vero natus odio delectus commodi molestias possimus voluptates vitae omnis est architecto harum.</p>
+        
+        <div class="w-25">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis deleniti ab fugit dolorem voluptas ipsam?</p>
+        </div>
+
+        <div class="bg-primary-subtle w-50" style="height: 200px;">
+            <div class="bg-danger-subtle h-50">Exemplo</div>
+        </div>
+
+        <hr>
+
+        <h3>Espaçamento</h3>
+        <p class="text-bg-success p-2">Padding</p>
+        <p class="text-bg-success py-2">Padding Vertical</p>
+        <p class="text-bg-success px-5">Padding Horizontal. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, nesciunt optio. Eveniet mollitia sequi sapiente, optio, repellendus officiis ab tempore similique magnam id dignissimos, vel odio consequuntur minus asperiores porro.</p>
+        <p class="text-bg-success pt-3">Padding Superior</p>
+
+        <div class="text-bg-danger w-50 mx-auto">
+            <p>Conteúdo qualquer</p>
+        </div>
+
+        <p class="text-bg-primary m-5">Margin</p>
+        <p class="text-bg-primary my-4">Margin Vertical</p>
+        <p class="text-bg-primary mx-3">Margin Horizontal</p>
+        <p class="text-bg-primary mt-5">Margin Superior</p>
+
+        <hr>
+
+        <h3>Texto</h3>
+        <p class="text-end">Lorem, ipsum dolor.</p>
+        <p class="text-center">Lorem, ipsum dolor.</p>
+        <p class="text-uppercase">Lorem, ipsum dolor.</p>
+        <p class="fs-1">Lorem, ipsum dolor.</p>
+        <p class="fs-2">Lorem, ipsum dolor.</p>
+        <p class="fw-bold">Lorem, ipsum dolor.</p>
+        <p class="fst-italic">Lorem, ipsum dolor.</p>
+        
+        <hr>
+
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
