@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <style>
+        .alert-primary {
+            background-color: lightblue;
+            font-weight: bold;
+            font-size: 1.3rem;
+            border-color: blue;
+            border-width: 4px;
+            border-radius: 12px;
+        }
+
+        .btn-danger {
+            background-color: purple;
+            text-transform: uppercase;
+            padding: 1rem 2rem;
+            border: black 8px solid;
+            transition: 1s;
+        }
+
+        /* Mini-exercício: criar regra para quando passar 
+        o mouse em cima do botão:
+        - Mude a cor de fundo para preto
+        - Mude a cor do texto para amarelo
+        - Trocar a cor da borda para roxo
+        - Desafio: deslocar para cima o botão */
+        .btn-danger:hover, .btn-danger:focus {
+            background-color: black;
+            color: yellow;
+            border-color: purple;
+            transform: translateY(-10px);
+        }
+
+        .card {
+            border: none;
+            border-bottom: double 8px;
+            border-top: double 8px;
+            border-radius: 0;
+            text-align: center;
+        }
+
+        .card-text { font-style: italic; }
+
+        .card .btn-primary {
+            background-color: transparent;
+            color: gray;
+            border: none;
+            box-shadow: gray 0 1px, gray 0 -1px;
+            border-radius: 0;
+        }
+
+        .card .btn-primary:hover, .card .btn-primary:focus {
+            color: black;
+            box-shadow: black 0 4px, black 0 -4px;
+        }
+
+        .nav-item a { color: red; }
+
+        .nav-pills .nav-link.active {
+            background-color: yellow;
+            color: black;
+            border-radius: 0;
+            border: solid 1px;
+        }
+
+        .shadow-lg {
+            box-shadow: rgba(255, 0, 0, 0.589) 0 0 3rem !important;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text-center">Personalização</h1>
+        <hr>
+
+        <div class="alert alert-primary" role="alert">
+            Texto qualquer
+        </div>
+
+        <hr>
+
+        <button class="btn btn-danger">Botão qualquer</button>
+
+        <hr>
+
+        <div class="card w-50">
+            <div class="card-body">
+                <h2 class="card-title">Título</h2>
+                <p class="card-text">Texto qualquer</p>
+                <p class="card-text">Outro texto qualquer</p>
+                <a href="" class="btn btn-primary">Link qualquer</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a href="" class="nav-link active">Um</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Dois</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Três</a>
+            </li>
+        </ul>
+
+        <hr>
+
+        <div class="shadow-lg p-3 mb-5">
+            Elemento com sombra...
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
